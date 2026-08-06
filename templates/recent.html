@@ -1,0 +1,70 @@
+<!--
+    recent.html — Your Financial Ledger
+    ═══════════════════════════════════════════════════════════
+
+    Identity: The "ledger" section of your diary.
+    Like flipping through past entries in an accounting book.
+
+    Visual cues:
+      Section titles in Playfair Display
+      Descriptions in Caveat (handwritten notes)
+      Dates in JetBrains Mono (structured)
+      Amounts in JetBrains Mono (tabular)
+
+    No Chart.js needed on this page.
+═══════════════════════════════════════════════════════════ -->
+{% extends "base.html" %}
+
+{% block title %}SpendWise | Ledger{% endblock %}
+
+{% block content %}
+
+<!-- ── Page Header ──────────────────────────────────────── -->
+<section class="page-header">
+    <h2>Your Expense Ledger</h2>
+    <p>Every entry you've written, organized and searchable.</p>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     Filters Toolbar
+────────────────────────────────────────────────────────── -->
+<section class="filters-bar">
+
+    <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search your diary entries..." autocomplete="off"
+            spellcheck="false">
+    </div>
+
+    <div class="filter-chips" id="filterChips">
+        <button class="filter-chip active" data-category="all">All Entries</button>
+    </div>
+
+</section>
+
+<!-- ── Results Count ────────────────────────────────────── -->
+<p class="results-count" id="resultsCount"></p>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     Transactions Table
+────────────────────────────────────────────────────────── -->
+<section>
+    <div class="table-wrapper">
+        <table id="purchasesTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Where</th>
+                    <th>Category</th>
+                    <th>Notes</th>
+                    <th class="th-right">Amount</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</section>
+
+{% endblock %}
