@@ -674,21 +674,19 @@ copies of the Software.
 
 <div align="center">
 
-**Rajsv Mahendra**
+**Sakshi Arora**
 
-*Building products at the intersection of design and intelligence.*
+*Computer Science & Engineering Undergraduate | Aspiring Software Developer*
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rajsvmahendra)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajsvmahendra)
-[![Portfolio](https://img.shields.io/badge/Portfolio-10B981?style=flat-square&logo=safari&logoColor=white)](https://rajsvmahendra.dev)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hello@rajsvmahendra.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sakshiarora03)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sakshi-arora-b465aa2a1/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sakshiarora7984@gmail.com)
 
 </div>
 
 <br />
 
 ---
-
 ## 🙏 Acknowledgements
 
 SpendWise X was inspired by the design philosophies of products that treat their users with respect and intelligence:
